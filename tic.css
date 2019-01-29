@@ -73,7 +73,8 @@ h1{
     border-right: 3px dashed #563636;
 }
 table{
-    margin: 60px auto;
+    margin: 60px ;
+    
 }
 td{
     height: 150px;
@@ -90,6 +91,10 @@ td{
     }
 #p1{
     padding-top: 200px;
+    margin-left: -30px;
+}
+#p2{
+    margin-left: -30px;
 }
 p{
     color: #285987;
