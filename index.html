@@ -1,0 +1,50 @@
+
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <title>TIC TAC TOE</title>
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="tic.css">
+    
+</head>
+<body>
+    <p><span class="head"> Tic </span><span  id="head2" > Tac </span><span id="head3"> Toe </span></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-3">
+                <p id="p1">X : <span id="xscore"></span></p>
+                <p>O : <span id="oscore"></span></p>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <table class="shadow">
+                    <tbody>
+                        <tr>
+                            <td id="0"><span ></span></td>
+                            <td id="1" class="vertical"><span ></span></td>
+                            <td id="2"><span ></span></td>
+                        </tr>
+                        <tr>
+                            <td id="3" class="horizontal"><span ></span></td>
+                            <td id="4" class="vertical horizontal"><span ></span></td>
+                            <td id="5" class="horizontal"><span ></span></td>
+                        </tr>
+                        <tr>
+                            <td id="6"><span ></span></td>
+                            <td id="7" class="vertical"><span ></span></td>
+                            <td id="8"><span ></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-3 col-sm-3">
+                <div id="recycle"> <span>Play Again</span></div>
+                <div id="restart"> <span>Restart</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="my.js"></script>
+</body>
+</html>
