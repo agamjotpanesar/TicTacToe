@@ -100,13 +100,15 @@ p{
     font-size: 50px;
 }
 #recycle{
-    margin-top : 200px;
+    margin-top : 190px;
+    margin-left:100px;
     font-family: Amatic SC;
     color: #285987;
     font-size: 50px;
     font-weight: 900;
 }
 #restart{
+    margin-left: 100px;
     margin-top : 20px;
     font-family: Amatic SC;
     font-size: 50px;
